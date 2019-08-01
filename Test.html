@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			/*div::before {
+				content:"我";
+			}
+			div::after {
+				content: "火锅";
+			}*/
+			/*伪元素 是行内元素 span*/
+			div::before {
+				content:"";
+				display: block;
+				width: 100px;
+				height: 100px;
+				background: red;
+			}
+		</style>
+	</head>
+	<body>
+		<div>吃</div>
+	</body>
+</html>
