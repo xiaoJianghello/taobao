@@ -33,12 +33,22 @@ em {
 	font-style: normal;
 }
 
+i {
+	font-style: normal;
+}
+
 strong {
 	font-weight: normal;
 }
 
+select {
+	list-style: none;
+	outline: none;
+}
+
 body {
 	background-color: #F1F1F1;
+	font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
 }
 
 div:empty{
@@ -1320,4 +1330,282 @@ div:empty{
 	float: right;
 	margin-right: 12px;
 	margin-top: 8px;
+}
+
+.combo-box-elves {
+	width: 292px;
+	/*height: 231px;*/
+	background-color: white;
+	margin-top: -10px;
+}
+
+.combo-box-elves>ul>li>.combo-elves-img {
+	background-image: url(../image/listPictrue.png);
+	width: 24px;
+	height: 24px;
+	margin: 0px auto;
+	margin-top: 13px;
+}
+
+.combo-box-elves>ul>li>.elves-position-1 {
+	background-position: 0px 0px;
+}
+
+.combo-box-elves>ul>li>.elves-position-2 {
+	background-position: 0px -44px;
+}
+
+.combo-box-elves>ul>li>.elves-position-3 {
+	background-position: 0px -90px;
+}
+
+.combo-box-elves>ul>li>.elves-position-4 {
+	background-position: 0px -130px;
+}
+
+.combo-box-elves>ul>li>.elves-position-5 {
+	background-position: 0px -172px;
+}
+
+.combo-box-elves>ul>li>.elves-position-6 {
+	background-position: 0px -220px;
+}
+
+.combo-box-elves>ul>li>.elves-position-7 {
+	background-position: 0px -265px;
+}
+
+.combo-box-elves>ul>li>.elves-position-8 {
+	background-position: 0px -307px;
+}
+
+.combo-box-elves>ul>li>.elves-position-9 {
+	background-position: 0px -351px;
+}
+
+.combo-box-elves>ul>li>.elves-position-10 {
+	background-position: 0px -396px;
+}
+
+.combo-box-elves>ul>li>.elves-position-11 {
+	background-position: 0px -440px;
+}
+
+.combo-box-elves>ul>li>.elves-position-12 {
+	background-position: 0px -483px;
+}
+
+.coin-img {
+	float: left;
+	margin-right: 5px;
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
+	background-image: url(../image/listPictrue.png);
+}
+
+.coin-img-1 {
+	background-position: 0px -528px;
+}
+
+.coin-img-2 {
+	background-position: 0px -573px;
+}
+
+.combo-box-elves>ul {
+	position: relative;
+}
+
+.combo-box-elves>ul>li {
+	float: left;
+	width: 71px;
+	height: 75px;
+	background-color: white;
+	text-align: center;
+	border: 1px solid #F1F1F1;
+	
+	font-size: 13px;
+	line-height: 30px;
+}
+
+.combo-box-elves>ul>li:hover {
+	color: #FF4400;
+}
+
+.combo-box-elves>ul>li:nth-child(1):hover,
+.combo-box-elves>ul>li:nth-child(2):hover,
+.combo-box-elves>ul>li:nth-child(3):hover {
+	border-color: #FF4400;
+}
+.combo-box-elves>ul>li:hover>.block-1,
+.combo-box-elves>ul>li:hover>.block-2,
+.combo-box-elves>ul>li:hover>.block-3,
+.combo-box-elves>ul>li:hover>.combo-box-notice {
+	display: block;
+}
+
+
+/*.combo-box-elves>ul>li>*/
+
+.combo-box-elves>ul>li>.combo-box-notice {
+	position: absolute;
+	top: 75px;
+	left: 0px;
+	width: 290px;
+	height: 155px;
+	/*padding-top: 4px;*/
+	box-sizing: border-box;
+	padding: 0px 15px;
+	background-color: white;
+	border: 1px solid red;
+	display: none;
+	
+}
+
+.combo-block {
+	position: absolute;
+	width: 71px;
+	height: 2px;
+	background-color: white;
+	display: none;
+}
+
+.combo-box-elves>ul>li>.block-1 {
+	top: 75px;
+	left: 1px;
+}
+
+.combo-box-elves>ul>li>.block-2 {
+	top: 75px;
+	left: 74px;
+}
+
+.combo-box-elves>ul>li>.block-3 {
+	top: 75px;
+	left: 147px;
+}
+
+.combo-box-notice>.row-box>ul {
+	margin-top: 3px;
+	padding: 0px 10px;
+}
+
+.combo-box-notice>.row-box>ul>li {
+	display: block;
+	float: left;
+	color: black;
+	padding: 5px;
+	font-size: 13px;
+}
+
+.combo-box-notice>.row-box>ul>li:nth-child(1) {
+	color: #FF4400;
+}
+
+.combo-box-notice>.row-box>.tel-input {
+	float: left;
+	width: 180px;
+	height: 20px;
+	line-height: 17px;
+	padding-left: 2px;
+}
+
+.combo-box-notice>.row-box>.up-local {
+	position: absolute;
+	left: 165px;
+	top: -3px;
+	color: #ADADAD;
+}
+
+.combo-box-notice>.row-box>.down-local {
+	position: absolute;
+	left: 165px;
+	top: 20px;
+	color: #ADADAD;
+}
+
+.combo-box-notice>.row-box>a>.bottom-box {
+	display: block;
+	float: left;
+	width: 70px;
+	height: 20px;
+	border-radius: 3px;
+	background-color: red;
+	line-height: 15px;
+	padding-top: 3px;
+}
+
+.box-combo-cell>li {
+	padding: 5px 1px!important;
+	/*width: 80px;*/
+	font-size: 12px;
+}
+.combo-box-notice>.row-box>select.local,
+.combo-box-notice>.row-box>input.local {
+	float: left;
+	display: block;
+	margin-right: 15px;
+	padding-left: 33px;
+	width: 67px;
+	height: 25px;
+	border: 2px solid #F4F4F4;
+}
+
+.combo-box-notice>.row-box>.base {
+	position: absolute;
+	color: #ADADAD;
+}
+
+.combo-box-notice>.row-box>.right-local-1 {
+	left: 82px;
+	top: 0px;
+}
+.combo-box-notice>.row-box>.right-local-2 {
+	left: 200px;
+	top: 0px;
+}
+
+.combo-box-notice>.row-box>.right-local-3 {
+	left: 82px;
+	top: 27px;
+}
+
+.combo-box-notice>.row-box>.base2 {
+	background-color: #F4F4F4;
+	position: absolute;
+	color: #ADADAD;
+	font-size: 12px;
+	padding: 0px 5px;
+	height: 28px;
+	line-height: 30px;
+	/*box-sizing: border-box;*/
+}
+
+.combo-box-notice>.row-box>.left-local-1 {
+	left: 0px;
+	top: 0px;
+}
+
+.combo-box-notice>.row-box>.left-local-2 {
+	left: 115px;
+	top: 0px;
+}
+
+.combo-box-notice>.row-box>.left-local-3 {
+	left: 0px;
+	top: 27px;
+}
+
+.combo-box-notice>.row-box>select.local {
+	position: absolute;
+}
+
+.combo-box-notice>.row-box>.position-box-1 {
+	top: 1px;
+	left: 50px;
+}
+
+.combo-box-notice>.row-box>.position-box-2 {
+	top: 30px;
+	left: 50px;
 }
