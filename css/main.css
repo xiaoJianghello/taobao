@@ -1609,3 +1609,79 @@ div:empty{
 	top: 30px;
 	left: 50px;
 }
+
+
+.app-box {
+	height: 107px;
+	background-color: white;
+	padding-top: 3px;
+}
+
+.app-box>.row-box>h3 {
+	float: left;
+	width: 80px;
+	font-size: 15px;
+	font-weight: 600;
+	padding: 2px;
+}
+
+.app-box>.row-box.line-1>a {
+	display:block;
+	float: right;
+	width: 80px;
+	font-size: 12px;
+}
+
+.app-box>.row-box.line-2 {
+	width: 267px;
+	padding-left: 23px;
+}
+
+.app-box>.row-box.line-2>a {
+	position: relative;
+	display:block;
+	float: left;
+	margin:0px 8px;
+	border-radius: 4px;
+}
+
+.app-box>.row-box.line-2>a>img {
+	display: block;
+	width: 32px;
+	height: 32px;
+}
+
+.app-box>.row-box.line-2>a:hover>.QRcode {
+	display: block;
+}
+
+.app-box>.row-box.line-2>a>.QRcode {
+	position: absolute;
+	top: -120px;
+	left: -30px;
+	width: 90px;
+	height: 102px;
+	border: 1px solid #F4F4F4;
+	background-color: white;
+	display: none;
+}
+
+.app-box>.row-box.line-2>a>.QRcode>.trangle {
+	position: absolute;
+	bottom: -10px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	width: 0px;
+	height: 0px;
+	border-top: 10px solid white;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+}
+
+.app-box>.row-box.line-2>a>.QRcode>img {
+	margin-top: 7px;
+}
+
+.app-box>.line-1>a:hover {
+	color: #FF4400;
+}
